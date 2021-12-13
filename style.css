@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica';
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+main {
+    margin-top: 69px;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 69px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+}    
+
+.main-logo {
+    padding-left: 10px;
+}
+
+.logo {
+    height: 50px;
+    width: 100%;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+.nav-list-item {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.hero-container {
+    text-align: center;
+    background-image: url('../Codecademy-Tea\ Cozy/images/img-mission-background.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-text {
+    background-color: black;
+    width: 100%;
+    line-height: 2.3em;
+    padding: 5px;
+}
+
+.block-1 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.block-1-title {
+    line-height: 2.3em;
+}
+
+.pictures-container {
+    height: auto;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-scale {
+    height: 200px;
+    width: 300px;
+}
+
+.pic {
+    margin: 17px 15px;
+}
+
+.pic-sidenote {
+    margin-top: 10px;
+}
+
+.block-2 {
+    margin-top: 70px;
+    background-image: url('../Codecademy-Tea\ Cozy/images/img-locations-background.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.locations-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.location {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin: 15px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.block-3 {
+    height: 200px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.bottom-title {
+    flex-grow: 2;
+}
+
+.bottom-info {
+    flex-grow: 1;
+}
+
+footer {
+    margin: 20px;
+}
